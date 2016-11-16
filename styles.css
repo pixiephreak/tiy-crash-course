@@ -1,0 +1,47 @@
+body {
+	font-family: arial, sans-serif;
+}
+
+main {
+	background-color: #d3d3d3;
+	width: 70%;
+	margin-left: 15%;
+}
+
+main: :after {
+	clear: both;
+	content: '';
+	display: block;
+
+}
+
+nav {
+	background-color: #0000ff;
+	color: #ffffff;
+	padding: 1em;
+
+}
+
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	margin: 2em;
+
+}
+
+.hero {
+	width: 100%;
+}
+
+article {
+	float: left;
+	width: 49%;
+}
+
+article img {
+	width: 90%;
+}
